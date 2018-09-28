@@ -1,0 +1,151 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\setlength{\headsep}{24pt}  % space between header and text
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+\rhead{ {\it Bhavik}\\{\it p. \thepage} } % put text in header (right side)
+\cfoot{}                                     % the foot is empty
+\topmargin=-1in % start text higher on the page
+
+\begin{document}
+\thispagestyle{empty} % this page has no header  
+\name{\Large \centerline{Bhavik Dhandhalya}\\ 
+\centerline {bhavik.bitspilani@gmail.com}\\[12pt]}% the \\[12pt] adds a blank line after name
+
+\address{{1117 CVR Bhawan} \\ BITS Pilani, Pilani Campus \\
+  Rajasthan, IND \\ Pilani-333031}      
+                                      
+\address{{(+91) 942-787-3839} \\ h20180118@pilani.bits-pilani.ac.in \\
+  https://github.com/BhavikDhandhalya}
+
+
+
+\begin{resume}
+ 
+\section{{\Large Education}} 
+\vspace{8pt}
+
+{\sc Birla Institute of Technology \& Science}, Pilani, IND \hfill Expected May 2020
+\begin{itemize}
+\item M.E. in Computer Science, GPA 0.00
+\end{itemize}
+
+{\sc Charusat University of Science \& Technology}, Changa, IND \hfill May 2017
+\begin{itemize}
+\item B.Tech. in Computer Engineering, GPA 7.06
+\item Secured 3rd Rank in 8th Semester by scoring perfect 10.00.
+\end{itemize}
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{0.01in} 
+\section{{\Large Professional Experience}} 
+\vspace{8pt}
+
+{\sc \underline{Charusat Space Research \& Technology Center}}, Changa, IND\\
+{\it Research Intern} \hfill Jan 2017 -- Apr 2017
+\begin{itemize}
+\item Project Title: Non-rigid Image Registration on Videos distorted by Atmospheric Turbulence.
+\item  Applied and Analyzed algorithms such as CGI(Control Grid Interpolation), Lucas - Kanade,
+FRATAAS(First Register Then Average and Subtract) to remove Heat Scintillation.
+\item Improvements were made on scene change and moving object recovery situations.
+\item Proposed new method called ``Dual Registration'' to handle high Scintillations. [MATLAB]
+\end{itemize}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{0.01in} 
+\section{{\Large Honors}} 
+\vspace{15pt}
+\begin{itemize}
+\item secured \underline{Rank 64th in ACM ICPC Asia Kolkata Regional 2016} after competing with 900+ teams in Online Round.
+\item Contestant at \underline{ACM ICPC Asia Amritapuri Regional 2015} after competing with 1500+ teams in Online Round.
+\item Secured All-India-Rank 491 among 1,07,893 candidates in GATE - Graduate Aptitude Test for Master Degree's Admission in India. Exam Stream : Computer Science.
+\item Qualified for Semi-Final Round in TCS Codevita season 4 \& 5 Coding Competition.
+\item Secured 38th Rank out of 800+ participants in CodeVaitam Coding Competition conducted by NIT Agartala on Codechef platform.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{0.01in} 
+\section{{\Large Projects}} 
+\vspace{8pt} % reduce space between section title and contents
+
+{\sc Load Balancing on Software Defined Network(SDN)} | {\it Network} \hfill Aug 2018 -- Present
+\begin{itemize}
+\item Improving Round-Robin and Dynamic load balancing methods proposed in IEEE 2015 \& ICNNA 2016 respectively. [Mininet]
+\end{itemize}
+
+{\sc Zombie Hunt Game} | {\it Algorithm} \hfill Jan 2016 -- Apr 2016
+\begin{itemize}
+\item Created this game where each Zombie follows the player using the Shortest Path Finding Algorithm called A*(A-Start) Algorithm by calculating Heuristic Values.
+\item Implemented weapon facilities to kill Zombies. [python 2.7, pygame]
+\end{itemize}
+
+{\sc File Transfer using Selective Repeat Protocol using UDP Packets} | {\it Network} \hfill Jan 2015 -- Apr 2015
+\begin{itemize}
+\item Implemented Multi-threading function at Sender \& Receiver side to Send \& Receive UDP Packets/ACKs.
+\item Implemented Time-Out-Timer to resend lost packets. [C++, pthread]
+\end{itemize}
+
+{\sc Terminal Based Quiz using RPC} | {\it Operating System} \hfill Sep 2014 -- Nov 2014
+\begin{itemize}
+\item Using Remote Procedure Call, Client attempts Quiz consist of 50 Random Questions. Any number of clients can interect with Server simultaneously. Implemented Rank feature.
+\item Handled unexpected failures by storing last status of Clients at Server side. [C]
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{0.01in} 
+\section{{\Large Survey/Term Presentation}} 
+\vspace{8pt}
+ 
+{\sc Critical Analysis of Quorum based Distributed Mutual Exclusion Algorithms} | {\it Distributed Systems} \hfill Aug 2018 -- Present
+\begin{itemize}
+\item Comparing Algorithms based on various performance matrix such as the Order of messages for critical section invocation, synchronization and response time.
+\end{itemize}
+
+{\sc Monte Carlo Factorization Approximation Algorithm} | {\it Algorithm} \hfill Aug 2018 -- Present
+\begin{itemize}
+\item Presented survey of Monte Carlo Factorization Approximation Algorithm.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{0.01in} 
+\section{{\Large Position of Responsibility}} 
+\vspace{8pt}
+
+\begin{itemize} \vspace{8pt}
+\item Curated Algorithmic programming problems for ``Clash of Coders'' a national level online series at HackerEarth. \hfill Jan 2015 - Apr 2016
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{0.01in} 
+\section{{\Large Extra Interests}} 
+\vspace{8pt}
+
+\begin{itemize} \vspace{8pt}
+\item Solved 600+ algorithmic problems on various online programming platforms like Codeforces, Codechef, HackerRank.
+\end{itemize}
+
+
+ 
+\end{resume} 
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
